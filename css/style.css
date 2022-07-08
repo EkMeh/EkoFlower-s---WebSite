@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* header style set start  */
+.header
+{
+    display: flex;
+    flex-direction: column;
+}
+/* header top style set starts */
+.header .headerTop
+{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.829);
+}
+
+.header .headerTop .boxTh1 
+{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.header .headerTop .boxTh1 .boxTh1c1
+{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.header .headerTop .boxTh1 .boxTh1c1 .p1
+{
+    text-transform: lowercase;
+    color: white;
+}
+
+.header .headerTop .boxTh1 .boxTh1c1 p
+{
+    font-size: .8rem;
+    text-transform: capitalize;
+    margin: .5rem .5rem;
+    color: white;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+
+.header .headerTop .boxTh1 .boxTh1c1 p span
+{
+    color: brown;
+    font-size: 1.2rem;
+}
+/* headter top style ends */
+
+/* headter bottom style starts */
+.header .headerBottom
+{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    margin: 0 0rem;
+    border-bottom: .25rem solid brown;
+    background:#1C2833;
+    padding: .5rem 0;
+}
+
+.header .headerBottom .logo h1
+{
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: .3rem;
+    font-size: 3.2rem;
+}
+
+.header .headerBottom .logo h1 span
+{
+    color: brown;
+}
+
+.header .headerBottom .searchBox
+{
+    display: flex;
+    align-items: center;
+}
+
+.header .headerBottom .searchBox #inp1
+{
+    width: 30rem;
+    height: 2.5rem;
+    font-size: 1.7rem;
+    border: none;
+    outline: none;
+    border-bottom-left-radius: 15rem;
+    border-top-left-radius: 15rem;
+    padding-left:1rem;
+}
+
+
+
+.header .headerBottom .searchBox #inp2
+{
+    height: 2.5rem;
+    width: 5rem;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    border-bottom-right-radius: 15rem;
+    border-top-right-radius: 15rem;
+    background: brown;
+    color: white;
+    cursor: pointer;
+}
+.header .headerBottom .boxBh1
+{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+.header .headerBottom .boxBh1 .boxBh1c1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1.5rem;
+}
+
+.header .headerBottom .boxBh1 .boxBh1c1 p
+{
+    font-size: 1.2rem;
+    color: white;
+    text-transform: capitalize;
+}
+
+.header .headerBottom .boxBh1 .boxBh1c1 p span
+{
+    color: brown;
+    font-size: 2rem;
+}
+/* headter bottom style ends */
+/* header navigation sytle set starts  */
+.header .headerNav ul
+{
+    display: inline-flex;
+    align-items: center;
+}
+
+.header .headerNav 
+{
+    margin:1.2rem 9rem;
+}
+
+.header .headerNav ul li
+{
+    margin:0 .5rem;
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 0 1rem;
+}
+
+.header .headerNav ul li:nth-child(1)
+{
+    border-bottom: .2rem solid brown;
+}
+
+.header .headerNav ul li:hover
+{
+    border-bottom: .2rem solid brown;
+}
+/* header navigation sytle set ends  */
+
+/* header style set end  */
+
+/* content style set starts  */
+.content
+{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.content .box-c1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.content .box-c1 img
+{
+    object-fit: cover;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.content .box-c1 h3
+{
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    margin: .1rem 0;
+}
+
+.content .box-c1 h4
+{
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    margin: .1rem 0;
+}
+
+.content .box-c1 h4:hover::after
+{
+    color: brown;
+    cursor: pointer;
+    content:" - ADD TO CART";
+    transition: .5s;
+}
+
+
+.content .box-c1 button
+{
+    position: relative;
+    margin-top: -1rem;
+    font-size: 1.1rem;
+    width: 8rem;
+    color: white;
+    background:brown;
+    text-transform: uppercase;
+    padding: .2rem 1rem;
+    cursor: pointer;
+    border: none;
+}
+
+.content .box-c1 button:hover
+{
+    color: brown;
+    background: white;
+    transition: .5s;
+}
+
+.content .box-c1 .social
+{
+    position: relative;
+    margin-top:-12rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    width: 15.6rem; 
+    background: white;
+    transform: scale(0.5);
+    visibility: hidden;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+
+.content .box-c1 .social p
+{
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: .2rem;
+}
+
+.content .box-c1 .social p span 
+{
+    font-size: 2rem;
+    color: brown;
+}
+
+.content .box-c1 .social p a
+{
+    color: black;
+    text-transform: none;
+}
+
+.content .box-c1:hover .social
+{
+    transform: scale(1.01);
+    transition: .5s;
+    visibility: visible;
+    cursor: pointer;
+}
+/* content style set ends  */
+
+
+/* footer style set starts  */
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    background:black;
+    margin-top: 7rem; margin-bottom: 1rem;
+    color: azure;
+    padding: 2rem;
+}
+
+.footer .box-f1 h2
+{ 
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    margin-bottom: 1.5rem;
+    border-bottom: .1rem solid brown;
+}
+  
+.footer .box-f1 p
+{
+    font-size: 1.4rem;
+    max-width: 30rem;
+    text-transform: capitalize;
+    margin: .5rem; font-weight: 500;
+    cursor: pointer;
+}
+
+.footer .box-f1 .searchBox1
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.footer .box-f1 .searchBox1 #inp3
+{
+    width: 24rem;
+    height: 2.5rem;
+    font-size: 1.7rem;
+    border: none;
+    border-bottom: .2rem solid brown;
+    outline: none;
+    padding-left:.8rem;
+}
+
+.footer .box-f1 .searchBox1 #inp4
+{
+    height: 2.5rem;
+    width: 6rem;
+    font-size: 1.4rem;
+    border: none;
+    border-bottom: .2rem solid brown;
+    outline: none;
+    background: white;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.footer .box-f1 .searchBox1 #inp4:hover
+{
+    color: brown;
+}
+
+.footer .box-f1 p:hover 
+{
+    color: brown;
+}
+/* footer style set ends  */
+
